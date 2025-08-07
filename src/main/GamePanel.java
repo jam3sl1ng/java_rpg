@@ -68,7 +68,8 @@ public class GamePanel extends JPanel implements Runnable {
         long currentTime;
         long timer = 0;
 
-        int drawCount = 0;
+        @SuppressWarnings("unused")
+		int drawCount = 0;
 
         // Game loop
         while(gameThread != null) {
