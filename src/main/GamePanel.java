@@ -40,7 +40,7 @@ public class GamePanel extends JPanel implements Runnable {
     public Player player = new Player(this, keyH);
     public AssetSetter aSetter = new AssetSetter(this);
     public CollisionChecker cChecker = new CollisionChecker(this);
-    public SuperObject obj[] = new SuperObject[3];
+    public SuperObject obj[] = new SuperObject[5];
 
     public GamePanel() {
         this.setPreferredSize(new Dimension(screenWidth, screenHeight));
